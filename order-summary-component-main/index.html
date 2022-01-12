@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn-tailwindcss.vercel.app/"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Red Hat Display'],
+            },
+            colors: {
+              primary: '#e0e8ff',
+              neutral: '',
+            },
+          },
+        },
+      };
+    </script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.google.com/specimen/Red+Hat+Display"
+    />
+
+    <title>Frontend Mentor | Order summary card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      /* font-family: 'Red Hat Display', sans-serif; */
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      /* .p{
+        text-center
+      } */
+    </style>
+  </head>
+  <body>
+    <div
+      class="bg-local min-h-screen bg-no-repeat"
+      style="background-image: url(./images/pattern-background-desktop.svg)"
+    >
+      <div
+        class="
+          relative
+          align-middle
+          max-w-screen-sm
+          px-8
+          py-10
+          bg-white
+          shadow-lg
+          sm:rounded-3xl sm:p-20
+        "
+      >
+        <img class="w-full" src="/images/illustration-hero.svg" alt="pic" />
+        <p class="font-bold text-center">Order Summary</p>
+        <p class="font-medium text-center">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+        <div class="max-w-sm mx-auto flex p-5 bg-gray-50 rounded-lg">
+          <div class="flex-shrink-0">
+            <img
+              class="h-12 w-12"
+              src="/images/icon-music.svg"
+              alt="music logo"
+            />
+          </div>
+          <div class="ml-6 pt-1">
+            <h4 class="font-bold text-gray-900 leading-tight">Annual Plan</h4>
+            <p class="text-base text-gray-500 leading-normal">$59.99/year</p>
+            <u>Change</u>
+          </div>
+        </div>
+
+        <button
+          class="bg-blue-500 hover:bg-blue-700 text-white py-3 px-6 rounded-lg"
+        >
+          Proceed to Payment
+        </button>
+        Cancel Order
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Gdoys</a>.
+      </div>
+    </div>
+  </body>
+</html>
