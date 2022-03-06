@@ -12,7 +12,7 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-<link rel="stylesheet" href="https://fonts.google.com/specimen/Outfit"/>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Outfit" />
     <title>Frontend Mentor | NFT preview card component</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -27,36 +27,46 @@
     </style> -->
   </head>
   <body>
-    <div class="flex flex-col items-center justify-center">
-      <div class="container bg-sky-900 w-80 justify-center rounded-lg">
-        <div class="rounded-lg">
+    <div
+      class="bg-violet-200 flex flex-col items-center justify-center mx-auto my-auto"
+    >
+      <div
+        class="container bg-sky-900 w-80 justify-center rounded-lg overflow-hidden"
+      >
+        <div class="flex flex-col">
           <img src="./images/image-equilibrium.jpg" />
         </div>
-        <div class="text-xl font-semibold text-cyan-500 px-4 pb-3">Equilibrium #3429</div>
+        <div class="text-xl font-semibold text-cyan-500 px-4 pb-3">
+          Equilibrium #3429
+        </div>
 
         <div class="text-sm font-light text-stone-400 px-4 pb-3">
           Our Equilibrium collection promotes balance and calm.
         </div>
-        <div class="flex flex-row px-4 justify-between  pb-3">
-          <div class="text-xs ">
-            <img src="./images/icon-ethereum.svg"></img>0.041 ETH
-          </div>
-          <div class="text-xs"><img src="./images/icon-clock.svg">3 days left</div>
+        <div class="flex flex-row px-4 pb-3">
+          <div><img src="./images/icon-ethereum.svg" /></div>
+          <div class="text-xs pl-2 mr-12">0.041 ETH</div>
+
+          <div class=""><img src="./images/icon-clock.svg" /></div>
+          <div class="text-xs pl-2">3 days left</div>
         </div>
 
         <div class="flex flex-row px-4 py-4">
-          <div class="border-2 rounded-full w-7 mr-2">
+          <div class="border-2 rounded-full w-7 mr-3">
             <img src="./images/image-avatar.png" />
           </div>
-          <div class="text-xs">Creation of Jules Wyvern</div>
+          <div class="text-xs pt-2">Creation of Jules Wyvern</div>
         </div>
-      </div>
-      <div class="attribution text-xs">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Gdoys</a>.
       </div>
     </div>
   </body>
+
+  <footer>
+    <div class="attribution text-xs text-center">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Gdoys</a>.
+    </div>
+  </footer>
 </html>
