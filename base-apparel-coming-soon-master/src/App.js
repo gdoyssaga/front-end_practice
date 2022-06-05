@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './Navbar';
 
 function App() {
   return (
@@ -17,6 +18,10 @@ function App() {
         >
           Learn React
         </a>
+        Hi
+        <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
       </header>
     </div>
   );
